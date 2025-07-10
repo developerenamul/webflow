@@ -53,7 +53,9 @@ img {
   display: flex;
   justify-content: space-between;
 }
-
+.action-img img {
+  border-radius: 24px;
+}
 .action-text-content p {
   margin: 20px 0;
 }
@@ -62,4 +64,23 @@ p {
   color: rgba(37, 36, 50, 0.5);
   font-size: 24px;
   font-weight: 400;
+}
+
+.productive-users {
+  border-radius: 24px;
+  background: rgba(78, 71, 255, 0.1);
+}
+.productives-content {
+  display: flex;
+  justify-content: space-evenly;
+}
+.productive {
+  padding: 50px 0;
+  text-align: center;
+}
+
+.productive h2 {
+  color: rgb(78, 71, 255);
+  font-size: 80px;
+  font-weight: 700;
 }
