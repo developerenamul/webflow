@@ -42,3 +42,24 @@ button:hover {
 .bg-orange {
   color: orange;
 }
+
+img {
+  width: 100%;
+}
+
+/* main  */
+
+.action {
+  display: flex;
+  justify-content: space-between;
+}
+
+.action-text-content p {
+  margin: 20px 0;
+}
+
+p {
+  color: rgba(37, 36, 50, 0.5);
+  font-size: 24px;
+  font-weight: 400;
+}
